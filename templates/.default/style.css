@@ -1,0 +1,17 @@
+button {
+    border: none;
+
+    &:hover {
+        transition: 0.5s all;
+        background: black;
+        color: white
+    }
+}
+
+.tz {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
